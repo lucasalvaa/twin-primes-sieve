@@ -7,7 +7,7 @@ This program efficiently identifies such pairs in a given range using number the
 
 ---
 
-🧠 How It Works
+## 🧠 How It Works
 
 - This program is based on the [number theory fact](https://www.sciencedirect.com/science/article/abs/pii/S0960077907009812) that primes >3 are of the form 6k ± 1.
 - A set of four modular selection rules eliminates k-values that cannot generate twin primes.
@@ -22,10 +22,12 @@ This program efficiently identifies such pairs in a given range using number the
 Requires a C compiler (e.g., `gcc`) and `make`.
 
 ```bash
-git clone https://github.com/your-username/twin-primes-sieve.git
+git clone https://github.com/lucasalvaa/twin-primes-sieve.git
 cd twin-primes-sieve
 make
 ```
+
+---
 
 ## 🚀 Usage
 
@@ -38,6 +40,8 @@ Example:
 ./sieve 1 100000000
 ```
 
+---
+
 ## 👤 Author
 
-Developed by Salvatore Luca [@lucasalvaa](https://github.com/lucasalvaa) and Squitieri Andrea [@Andeser-rgb](https://github.com/Andeser-rgb)
+Developed by Salvatore Luca ([@lucasalvaa](https://github.com/lucasalvaa)) and Squitieri Andrea ([@Andeser-rgb](https://github.com/Andeser-rgb))
