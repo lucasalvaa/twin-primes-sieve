@@ -9,7 +9,7 @@ This program efficiently identifies such pairs in a given range using number the
 
 ## 🧠 How It Works
 
-- This program is based on the [number theory fact](https://www.sciencedirect.com/science/article/abs/pii/S0960077907009812) that primes >3 are of the form 6k ± 1.
+- This program is based on the **[number theory fact](https://www.sciencedirect.com/science/article/abs/pii/S0960077907009812)** that primes >3 are of the form 6k ± 1.
 - A set of four modular selection rules eliminates k-values that cannot generate twin primes.
 - The remaining values of k are transformed into candidate twin pairs (6k+5, 6k+7).
 - The statistics of each program run (range, pairs found and time elapsed) are saved in a text file called "resumes.txt".
