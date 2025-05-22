@@ -35,7 +35,7 @@ int main (int argc, char **argv) {
   mytimer_t timer;
   start_timer(&timer);
 
-  // Alloc// Clean up resourcesate and initialize the boolean array that tracks valid twin prime generators
+  // Initialize the boolean array that tracks valid twin prime generators
   bool *is_twins_gen = (bool*) secure_malloc((necessary_space + 1) * sizeof(bool));
   memset(is_twins_gen, 1, (necessary_space + 1) * sizeof(*is_twins_gen));
   
@@ -50,7 +50,7 @@ int main (int argc, char **argv) {
   if (inf <= 3) {
     insert_pair(list, 3, 5);
   }
-// Clean up resources
+  
   // Generate and collect twin primes based on the filtered k value
   for (u64_t i=0, p=0; i <= necessary_space; i++) {
     if (!is_twins_gen[i]) {
